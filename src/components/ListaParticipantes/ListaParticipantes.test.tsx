@@ -1,11 +1,11 @@
 import {render, screen} from '@testing-library/react'; 
 import {RecoilRoot} from 'recoil'; 
-import { useListaParticipantes } from '../../state/hook/useListaDeParticipantes';
+import { useListaParticipantes } from '../../state/hook/useListaParticipantes';
 import { ListaParticipantes } from './ListaParticipantes';
 
 // vamos simular o comportamento daquele hook aqui 
 // quando alguem pedir essa lista de participantes 
-jest.mock('../../state/hook/useListaDeParticipantes', () => {
+jest.mock('../../state/hook/useListaParticipantes', () => {
     // vamos mockar 
     return {
         // quando alguem usar essa lista de participantes ela vai se comportar como uma função 

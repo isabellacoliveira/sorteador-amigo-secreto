@@ -2,7 +2,7 @@ import { useRef, useState } from "react"
 import { useMensagemDeErro } from "../../state/hook/useMensagemDeErro"
 import { useAdicionarParticipante } from "../../state/hook/useAdicionarParticipante"
 
-import './Formulario.scss'
+import './Formulario.css'
 
 const Formulario = () => {
 
